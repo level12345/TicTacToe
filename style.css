@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: Roboto; */
+}
+
+.gameboard {
+  display: grid;
+  /* width: 1000px; */
+  grid-template: repeat(3, 300px) / repeat(3, 300px);
+  background: #d7d7d7;
+  gap: 20px;
+}
+
+.grid-item {
+  background: white;
+}
